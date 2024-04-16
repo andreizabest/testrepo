@@ -1,0 +1,95 @@
+.root {
+  display: grid;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  align-content: flex-start;
+  justify-items: center;
+  min-width: 0;
+  min-height: 0;
+  grid-template-columns:
+    var(--plsmc-viewport-gap) 1fr minmax(0, var(--plsmc-wide-chunk))
+    min(
+      var(--plsmc-standard-width),
+      calc(100% - var(--plsmc-viewport-gap) - var(--plsmc-viewport-gap))
+    )
+    minmax(0, var(--plsmc-wide-chunk)) 1fr var(--plsmc-viewport-gap);
+  padding: 0px;
+}
+.root > * {
+  grid-column: 4;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .root > * {
+    grid-column: 4;
+  }
+}
+.freeBox__xnE {
+  position: relative;
+  object-fit: cover;
+  max-width: 100%;
+  margin-right: 0px;
+  height: 301px;
+  width: 890px;
+  background: url("./images/_60511Ee0D5C711Ec8Fbd761F600C40E2Jpeg.jpg") 0% 0% / 100% 100% repeat;
+  display: flex;
+}
+.freeBox__zpMlo {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  min-width: 0;
+  padding: 8px;
+}
+.img {
+  object-fit: contain;
+  max-width: 100%;
+  object-position: left 50%;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  height: 43px;
+  align-self: flex-end;
+  margin-top: 0px;
+}
+.img > picture > img {
+  object-fit: contain;
+  object-position: left 50%;
+}
+.text {
+  position: relative;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  align-self: flex-end;
+  margin-top: 0px;
+  padding-left: 17px;
+  margin-bottom: 11px;
+}
+.section {
+  display: grid;
+  position: relative;
+  align-content: flex-start;
+  justify-items: center;
+  width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+  height: 387px;
+  max-width: 1304px;
+  margin-top: 75px;
+  min-width: 0;
+  grid-template-columns:
+    var(--plsmc-viewport-gap) 1fr minmax(0, var(--plsmc-wide-chunk))
+    min(
+      var(--plsmc-standard-width),
+      calc(100% - var(--plsmc-viewport-gap) - var(--plsmc-viewport-gap))
+    )
+    minmax(0, var(--plsmc-wide-chunk)) 1fr var(--plsmc-viewport-gap);
+}
+.section > * {
+  grid-column: 4;
+}
