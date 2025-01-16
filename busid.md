@@ -59,7 +59,7 @@ Things to keep in mind:
 * BusID is a unique value and cannot be used by multiple entries
 * Connector-type values are the same as discussed in the [Connector-type patching page](./connector.md)
 * Only certain BusID's are permitted based on the connector type
-  ** test
+  * test
 
 ## Mapping the video ports
 
