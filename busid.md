@@ -59,7 +59,8 @@ Things to keep in mind:
 * BusID is a unique value and cannot be used by multiple entries
 * Connector-type values are the same as discussed in the [Connector-type patching page](./connector.md)
 * Only certain BusID's are permitted based on the connector type
-  * test
+  * For DisplayPort `0x02`,`0x04`,`0x05` and `0x06` are allowed and should work on any motherboard. These values apply to VGA as well
+  * For HDMI `0x01`,`0x02`,`0x04` and `0x06` are allowed, however some motherboards may only accept one or two of these values. These value apply to DVI as well
 
 ## Mapping the video ports
 
